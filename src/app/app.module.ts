@@ -1,16 +1,31 @@
+import { FrontComponent } from './front/front.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ListUserComponent } from './list-user/list-user.component';
+import { AddUserComponent } from './add-user/add-user.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FullNamePipe } from './full-name.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListUserComponent,
+    AddUserComponent,
+    FrontComponent,
+    FullNamePipe
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,31 @@
+<div id="tab">
+  <h2 id="formhead">EMPLOYEE-LIST</h2>
+  </div>
+
+  <div class="frame">
+    <table class="table">
+      <tr class="table_head">
+        <th>&nbsp; Id</th>
+        <th>Full Name</th>
+        <th>User Name</th>
+        <th>D.O.B</th>
+        <th>Gender</th>
+        <th>
+         &nbsp; &nbsp;   Action Button</th>
+      </tr>
+      <tr *ngFor="let employee of employees">
+        <td>{{ employee.id }}</td>
+        <td>{{employee.firstName |fullName : employee.lastName | uppercase   }}</td>
+        <td>{{ employee.userName }}</td>
+        <td>{{ employee.dob }}</td>
+        <td>{{ employee.gender }}</td>
+
+        <td>
+          <button class="button" (click)="deleteUser(employee.id)">
+            Delete
+          </button>
+          <button class="button" (click)="getUser(employee.id)">Edit</button>
+        </td>
+      </tr>
+    </table>
+  </div>
