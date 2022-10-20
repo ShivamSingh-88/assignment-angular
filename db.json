@@ -24,7 +24,7 @@
       "id": "279ab6b1-6f3a-4f85-b215-7b4fd190e5ef",
       "firstName": "shashank",
       "lastName": "srivastava",
-      "userName": "shashank898",
+      "userName": "shashank89890909",
       "password": "shashank898",
       "confirmPassword": "shashank898",
       "dob": "2022-10-21",
@@ -68,6 +68,16 @@
       "password": "adarsh898",
       "confirmPassword": "adarsh898",
       "dob": "2022-10-20",
+      "gender": "male"
+    },
+    {
+      "id": "dc53509e-fca4-4b8b-8ac5-56dd19268cf6",
+      "firstName": "anoop",
+      "lastName": "singla",
+      "userName": "anoop8900",
+      "password": "anoop898",
+      "confirmPassword": "anoop898",
+      "dob": "2022-11-05",
       "gender": "male"
     }
   ]

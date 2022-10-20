@@ -10,6 +10,7 @@ import { ListUserComponent } from './list-user/list-user.component';
 import { AddUserComponent } from './add-user/add-user.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FullNamePipe } from './full-name.pipe';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FullNamePipe } from './full-name.pipe';
     ListUserComponent,
     AddUserComponent,
     FrontComponent,
-    FullNamePipe
+    FullNamePipe,
+    TableComponent
 
   ],
   imports: [
